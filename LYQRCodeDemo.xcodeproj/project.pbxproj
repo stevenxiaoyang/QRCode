@@ -11,7 +11,6 @@
 		AC33850C1CBB87CA00CB7821 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC33850B1CBB87CA00CB7821 /* AppDelegate.m */; };
 		AC33850F1CBB87CA00CB7821 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC33850E1CBB87CA00CB7821 /* ViewController.m */; };
 		AC3385141CBB87CA00CB7821 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3385131CBB87CA00CB7821 /* Assets.xcassets */; };
-		AC33851F1CBB893B00CB7821 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC33851E1CBB893B00CB7821 /* Default-568h@2x.png */; };
 		AC3385221CBB89CF00CB7821 /* DecodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3385211CBB89CF00CB7821 /* DecodeViewController.m */; };
 		AC3385251CBB89E200CB7821 /* EncodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3385241CBB89E200CB7821 /* EncodeViewController.m */; };
 		AC3387111CBB8D9C00CB7821 /* ZXAztecDecoder.m in Sources */ = {isa = PBXBuildFile; fileRef = AC33852B1CBB8D9C00CB7821 /* ZXAztecDecoder.m */; };
@@ -237,6 +236,7 @@
 		AC3387EF1CBB950F00CB7821 /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3387EE1CBB950F00CB7821 /* UIView+YYAdd.m */; };
 		AC3387F51CBB992700CB7821 /* Icon.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3387F41CBB992700CB7821 /* Icon.xcassets */; };
 		AC3387F81CBB9B3800CB7821 /* UIViewController+SelectPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3387F71CBB9B3800CB7821 /* UIViewController+SelectPhoto.m */; };
+		AC477A621CBCD4AA000EA1E8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AC477A611CBCD4AA000EA1E8 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -248,7 +248,6 @@
 		AC33850E1CBB87CA00CB7821 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AC3385131CBB87CA00CB7821 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC3385181CBB87CA00CB7821 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC33851E1CBB893B00CB7821 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		AC3385201CBB89CF00CB7821 /* DecodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DecodeViewController.h; sourceTree = "<group>"; };
 		AC3385211CBB89CF00CB7821 /* DecodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DecodeViewController.m; sourceTree = "<group>"; };
 		AC3385231CBB89E200CB7821 /* EncodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncodeViewController.h; sourceTree = "<group>"; };
@@ -716,6 +715,7 @@
 		AC3387F41CBB992700CB7821 /* Icon.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icon.xcassets; sourceTree = "<group>"; };
 		AC3387F61CBB9B3800CB7821 /* UIViewController+SelectPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SelectPhoto.h"; sourceTree = "<group>"; };
 		AC3387F71CBB9B3800CB7821 /* UIViewController+SelectPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SelectPhoto.m"; sourceTree = "<group>"; };
+		AC477A611CBCD4AA000EA1E8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -732,7 +732,7 @@
 		AC3384FB1CBB87CA00CB7821 = {
 			isa = PBXGroup;
 			children = (
-				AC33851E1CBB893B00CB7821 /* Default-568h@2x.png */,
+				AC477A611CBCD4AA000EA1E8 /* Default-568h@2x.png */,
 				AC3385061CBB87CA00CB7821 /* LYQRCodeDemo */,
 				AC3385051CBB87CA00CB7821 /* Products */,
 			);
@@ -1574,7 +1574,7 @@
 			files = (
 				AC3387F51CBB992700CB7821 /* Icon.xcassets in Resources */,
 				AC3385141CBB87CA00CB7821 /* Assets.xcassets in Resources */,
-				AC33851F1CBB893B00CB7821 /* Default-568h@2x.png in Resources */,
+				AC477A621CBCD4AA000EA1E8 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1943,6 +1943,7 @@
 				AC33851D1CBB87CA00CB7821 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
