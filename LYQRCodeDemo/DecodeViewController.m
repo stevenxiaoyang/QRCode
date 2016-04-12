@@ -173,7 +173,9 @@ static const CGFloat Scan_Time = 2.f;
 - (void)applyRectOfInterest:(UIInterfaceOrientation)orientation {
     CGFloat scaleVideo, scaleVideoX, scaleVideoY;
     CGFloat videoSizeX, videoSizeY;
-    CGRect transformedVideoRect = self.scanRectView.frame;
+    CGRect frame = self.scanRectView.frame;
+    frame.size = CGSizeMake(2 * frame.size.width, 2 * frame.size.height);
+    CGRect transformedVideoRect = frame;
     if([self.capture.sessionPreset isEqualToString:AVCaptureSessionPreset1920x1080]) {
         videoSizeX = 1080;
         videoSizeY = 1920;
