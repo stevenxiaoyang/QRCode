@@ -19,8 +19,8 @@ static NSString *const cellIdentifity = @"CellId";
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.title = @"二维码";
-    self.cellNameArray = @[@"生成二维码",@"扫描二维码"];
-    self.controllerNameArray = @[@"EncodeViewController",@"DecodeViewController"];
+    self.cellNameArray = @[@"生成二维码",@"扫描二维码",@"系统自带扫码"];
+    self.controllerNameArray = @[@"EncodeViewController",@"DecodeViewController",@"SystemDecodeViewController"];
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:cellIdentifity];
     self.tableView.tableFooterView = [[UIView alloc] init];
 }

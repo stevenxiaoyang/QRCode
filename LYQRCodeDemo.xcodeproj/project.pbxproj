@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC16DF4D1CBDF05A00BA2015 /* SystemDecodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC16DF4C1CBDF05A00BA2015 /* SystemDecodeViewController.m */; };
+		AC16DF531CBDF23500BA2015 /* BaseDecodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC16DF521CBDF23500BA2015 /* BaseDecodeViewController.m */; };
 		AC3385091CBB87CA00CB7821 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC3385081CBB87CA00CB7821 /* main.m */; };
 		AC33850C1CBB87CA00CB7821 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC33850B1CBB87CA00CB7821 /* AppDelegate.m */; };
 		AC33850F1CBB87CA00CB7821 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AC33850E1CBB87CA00CB7821 /* ViewController.m */; };
@@ -240,6 +242,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC16DF4B1CBDF05A00BA2015 /* SystemDecodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemDecodeViewController.h; sourceTree = "<group>"; };
+		AC16DF4C1CBDF05A00BA2015 /* SystemDecodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemDecodeViewController.m; sourceTree = "<group>"; };
+		AC16DF511CBDF23500BA2015 /* BaseDecodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDecodeViewController.h; sourceTree = "<group>"; };
+		AC16DF521CBDF23500BA2015 /* BaseDecodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDecodeViewController.m; sourceTree = "<group>"; };
 		AC3385041CBB87CA00CB7821 /* LYQRCodeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYQRCodeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC3385081CBB87CA00CB7821 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC33850A1CBB87CA00CB7821 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -755,8 +761,12 @@
 				AC33850B1CBB87CA00CB7821 /* AppDelegate.m */,
 				AC33850D1CBB87CA00CB7821 /* ViewController.h */,
 				AC33850E1CBB87CA00CB7821 /* ViewController.m */,
+				AC16DF511CBDF23500BA2015 /* BaseDecodeViewController.h */,
+				AC16DF521CBDF23500BA2015 /* BaseDecodeViewController.m */,
 				AC3385201CBB89CF00CB7821 /* DecodeViewController.h */,
 				AC3385211CBB89CF00CB7821 /* DecodeViewController.m */,
+				AC16DF4B1CBDF05A00BA2015 /* SystemDecodeViewController.h */,
+				AC16DF4C1CBDF05A00BA2015 /* SystemDecodeViewController.m */,
 				AC3385231CBB89E200CB7821 /* EncodeViewController.h */,
 				AC3385241CBB89E200CB7821 /* EncodeViewController.m */,
 				AC3387F61CBB9B3800CB7821 /* UIViewController+SelectPhoto.h */,
@@ -1721,6 +1731,7 @@
 				AC3387A21CBB8D9C00CB7821 /* ZXCode39Reader.m in Sources */,
 				AC33879A1CBB8D9C00CB7821 /* ZXRSSDataCharacter.m in Sources */,
 				AC3387E41CBB8D9C00CB7821 /* ZXQRCodeMaskUtil.m in Sources */,
+				AC16DF531CBDF23500BA2015 /* BaseDecodeViewController.m in Sources */,
 				AC3387351CBB8D9C00CB7821 /* ZXTelParsedResult.m in Sources */,
 				AC3387511CBB8D9C00CB7821 /* ZXDecoderResult.m in Sources */,
 				AC33876B1CBB8D9C00CB7821 /* ZXDataMatrixVersion.m in Sources */,
@@ -1768,6 +1779,7 @@
 				AC3387E51CBB8D9C00CB7821 /* ZXQRCodeMatrixUtil.m in Sources */,
 				AC33875B1CBB8D9C00CB7821 /* ZXBinaryBitmap.m in Sources */,
 				AC3387D81CBB8D9C00CB7821 /* ZXQRCodeFormatInformation.m in Sources */,
+				AC16DF4D1CBDF05A00BA2015 /* SystemDecodeViewController.m in Sources */,
 				AC33871A1CBB8D9C00CB7821 /* ZXAztecDetectorResult.m in Sources */,
 				AC3387181CBB8D9C00CB7821 /* ZXAztecState.m in Sources */,
 				AC33879F1CBB8D9C00CB7821 /* ZXCodaBarWriter.m in Sources */,
@@ -1906,7 +1918,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LYQRCodeDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = LYQRCodeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cc.LuYang.LYQRCodeDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LYQRCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -1919,7 +1931,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LYQRCodeDemo/PrefixHeader.pch";
 				INFOPLIST_FILE = LYQRCodeDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cc.LuYang.LYQRCodeDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.LYQRCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

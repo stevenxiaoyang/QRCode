@@ -8,7 +8,7 @@
 
 #import "EncodeViewController.h"
 
-static NSString * const url = @"www.baidu.com";
+static NSString * const url = @"www.google.com";
 @implementation EncodeViewController
 - (void)viewDidLoad{
     [super viewDidLoad];
@@ -29,6 +29,7 @@ static NSString * const url = @"www.baidu.com";
                                    hints:hints
                                    error:nil];
     codeImageView.image = [UIImage imageWithCGImage:[[ZXImage imageWithMatrix:result] cgimage]];
+    UIImageWriteToSavedPhotosAlbum(codeImageView.image, nil, nil, NULL);
 }
 @end
 
